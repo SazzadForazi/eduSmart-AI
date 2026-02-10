@@ -13,29 +13,22 @@ An AI-powered assessment tool designed for **BCS, NTRCA, Bank Jobs, and Admissio
 * **Dynamic Branding:** UI colors change based on the selected exam category.
 * **Review & Learn:** Get detailed explanations for every question to understand your mistakes.
 * **Countdown Timer:** Real-time timer to simulate actual exam pressure.
-
-## 🛠️ Tech Stack
-* **Frontend:** [Streamlit](https://streamlit.io/)
-* **AI Engine:** Google Gemini (2.0/2.5 Flash)
-* **Language:** Python 3.10+
-
+---
 ## ⚙️ Local Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+   git clone [https://github.com/SazzadForazi/eduSmart-AI.git)
    ```
 
-2. Install dependencies::
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
 3. Set up your .env file: Create a file named .env and add:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 4. Run the app:
    ```bash
    streamlit run app.py
    ```
+---
