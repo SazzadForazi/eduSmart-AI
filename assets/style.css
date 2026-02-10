@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.stApp{
+ background:#0f172a;
+ color:white;
+ font-family:Inter;
+}
+
+section[data-testid="stSidebar"]{
+ background:#020617;
+}
+
+.question-card{
+ background:#1e293b;
+ padding:18px;
+ border-radius:12px;
+ border-left:5px solid #38bdf8;
+ margin-bottom:10px;
+}
+
+button{
+ background:linear-gradient(135deg,#38bdf8,#0284c7)!important;
+ color:white!important;
+ border:none!important;
+ border-radius:8px!important;
+ font-weight:600!important;
+} */
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Main App Background */
+.stApp {
+    background: #0f172a !important;
+    color: white !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #020617 !important;
+}
+
+/* Question Card Styling */
+.question-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #38bdf8;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Button Customization */
+button[kind="secondary"] {
+    background: linear-gradient(135deg, #38bdf8, #0284c7) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: transform 0.2s ease;
+}
+
+button[kind="secondary"]:hover {
+    transform: scale(1.02);
+}
